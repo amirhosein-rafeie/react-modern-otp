@@ -12,7 +12,7 @@ function App() {
         background: "red",
       }}
     >
-      <OTP />
+      <OTP renderInput={(props) => <input {...props} />} />
     </div>
   );
 }
